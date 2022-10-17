@@ -15,7 +15,7 @@ let tempCelsius = 32;
 
 switch (targetUnit) {
   case "F":
-    console.log(((tempCelsius - 32) * 5) / 9);
+    console.log((tempCelsius * 9) / 5 + 32);
     break;
   case "K":
     console.log(tempCelsius - 273.15);
