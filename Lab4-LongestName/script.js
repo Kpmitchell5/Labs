@@ -1,6 +1,10 @@
-let name1 = "Arnold Palmer";
-let name2 = "Lebron James";
-let name3 = "Neil deGrasse Tyson";
+// let name1 = "Arnold Palmer";
+// let name2 = "Lebron James";
+// let name3 = "Neil deGrasse Tyson";
+
+let name1 = "hi";
+let name2 = "h";
+let name3 = "h";
 
 if (name1.length > name2.length && name1.length > name3.length) {
   console.log(`${name1} has the longest name.`);
