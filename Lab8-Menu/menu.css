@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 155%;
+}
+
+.btn-group {
+  float: right;
+}
+
+.listL {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  position: relative;
+  top: 35%;
+  left: 40%;
+}
+
+.listN {
+  display: flex;
+  padding: 10px;
+  width: 30%;
+  position: relative;
+  top: 27%;
+  left: 39%;
+}
+
+.letters {
+}
+
+.numbers {
+}
+
+.clicked {
+  display: none;
+}
