@@ -31,24 +31,84 @@ const submissions = [
 // console.log(submissions);
 
 // function deleteSubmissionByName(array, name) {
-//  name = array.findIndex(name => name === name);
-//   array.splice(name, 1)
+//   let nameIndex = (element) => element.name === name;
+//   array.splice(array.findIndex(nameIndex));
 // }
-// deleteSubmissionByName(submissions, 'Jill');
-// console.log(submissions)
+// deleteSubmissionByName(submissions, "Jill");
+// console.log(submissions);
 
+// function deleteSubmissionByName(array, name) {
+//   let indexOfObject = array.findIndex((object) => {
+//     return object.name === name;
+//   });
+//   array.splice(indexOfObject, 1);
+// }
+// deleteSubmissionByName(submissions, "Jack");
+// console.log(submissions);
 
-// function editSubmission(array, index, score) {}
-// function findSubmissionByName(array, name){}
-// function findLowestScore(array){}
-// function findAverageScore(array){
-//   for (let submission of submissions)
-//   score / score.length * score.length
-// };
-// function filterPassing(array){
-//   if(passing === true){
-//     array.filter(passed => passed === true)
-//     return
+// function editSubmission(array, index, score) {
+//   let newScore = (array[index].score = score);
+//   newScore >= 60 ? (array[index].passed = true) : (array[index].passed = false);
+//   return array;
+// }
+// editSubmission(submissions, 2, 80);
+// console.log(submissions);
+
+// function editSubmission(array, index, score) {
+//   let newScore = (array[index].score = score);
+//   if (newScore >= 60) {
+//     array[index].score = true;
+//     return array;
+//   } else {
+//     array[index].passed = false;
+//     return array;
 //   }
 // }
-// function filter90AndAbove(array){}
+// editSubmission(submissions, 1, 40);
+
+// function findSubmissionByName(array, name) {
+//   name = array.find((object) => {
+//     return object.name === name;
+//   });
+//   console.log(name);
+// }
+// findSubmissionByName(submissions, "Joe");
+
+function findLowestScore(array) {
+  const results = array.forEach(function (item, index) {
+    const prev = array[index - 1];
+    if (array[index.score] < prev.score) {
+      console.log(results);
+    } else {
+      console.log(item.score);
+    }
+  });
+  console.log(results);
+}
+findLowestScore(submissions);
+
+// function findAverageScore(array) {
+//   let sum = 0;
+//   for (let submission of submissions) {
+//     sum += submission.score;
+//   }
+//   let avg = sum / array.length;
+//   console.log(avg);
+// }
+// findAverageScore(submissions);
+
+// function filterPassing(array) {
+//   const results = array.filter((passing) => {
+//     return passing.passed === true;
+//   });
+//   console.log(results);
+// }
+// filterPassing(submissions);
+
+// function filter90AndAbove(array) {
+//   const results = array.filter((aboveNinety) => {
+//     return aboveNinety.score <= 90;
+//   });
+//   console.log(results);
+// }
+// filter90AndAbove(submissions);
