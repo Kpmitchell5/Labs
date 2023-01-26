@@ -1,0 +1,20 @@
+.progressChocolate {
+  background-color: gray;
+}
+.progressChocolate::-moz-progress-bar {
+  background-color: sienna;
+}
+
+.progressVanilla {
+  background-color: gray;
+}
+.progressVanilla::-moz-progress-bar {
+  background-color: silver;
+}
+
+.progressStrawberry {
+  background-color: gray;
+}
+.progressStrawberry::-moz-progress-bar {
+  background-color: pink;
+}

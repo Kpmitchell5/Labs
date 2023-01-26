@@ -1,0 +1,10 @@
+Header {
+  box-shadow: 0 3px 1px 2px gray;
+  text-align: center;
+  color: #0e3c7e;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0;
+}
