@@ -7,7 +7,7 @@ interface AdProperties {
 }
 
 export function Ad(props: AdProperties) {
-  let className = "Ad" + (props.isLight ? "Ad--light" : "");
+  let className = props.isLight ? "Ad--light" : "Ad--dark";
   return (
     <div className={className}>
       <p>Vote for:</p>

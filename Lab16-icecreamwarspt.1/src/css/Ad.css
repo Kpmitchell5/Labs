@@ -2,6 +2,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.Ad p {
+  margin: 0;
+}
+
+.Ad--light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 3px solid #222;
   padding: 10px 20px;
   font-weight: bold;
@@ -11,12 +21,18 @@
   margin-bottom: 5px;
 }
 
-.Ad p {
-  margin: 0;
-}
-
 .Ad--dark {
+  display: flex;
   color: #fff;
   background-color: #222;
   border-color: white;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  padding: 10px 20px;
+  font-weight: bold;
+  width: 180px;
+  height: 120px;
+  box-shadow: 0 1px 4px 3px #888;
+  margin-bottom: 5px;
 }

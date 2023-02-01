@@ -1,12 +1,7 @@
-#AdDesigner .Ad {
+.AdDesigner .Ad {
   border: 3px solid grey;
   text-align: center;
   padding: 20px;
-}
-
-.AdDesigner .dark {
-  background-color: black;
-  color: white;
 }
 
 h2,
