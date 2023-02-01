@@ -1,0 +1,15 @@
+.Votes .progressChocolate {
+  background-color: sienna;
+}
+
+.Votes .progressVanilla {
+  background-color: beige;
+}
+
+.progressVanilla .progress-bar {
+  background-color: beige;
+}
+
+.Votes .progressStrawberry {
+  background-color: pink;
+}

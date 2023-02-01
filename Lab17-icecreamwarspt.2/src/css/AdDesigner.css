@@ -1,0 +1,15 @@
+.AdDesigner .Ad {
+  border: 3px solid grey;
+  text-align: center;
+  padding: 20px;
+}
+
+h2,
+.AdDesigner {
+  font-size: 45px;
+  font-family: "Caveat";
+}
+
+h3 {
+  font-size: 25px;
+}
